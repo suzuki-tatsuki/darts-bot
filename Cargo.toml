@@ -3,6 +3,10 @@ name = "darts"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+dotenvy = "0.15.7"
+tokio = { version = "1.21.2", features = ["full"] }
+serde = "^1.0"
+serde_json = "^1.0"
+serenity = "0.12"
+calamine = "0.25.0"
